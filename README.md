@@ -10,7 +10,7 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
   <img src="./Attachments/StartMenu.gif" alt="drawing" width="650"/>
 </p>
 
-## Game Play
+## Gameplay
 <p align="center">
   <img src="./Attachments/GamePlay.gif" alt="drawing" width="650"/>
 </p>
