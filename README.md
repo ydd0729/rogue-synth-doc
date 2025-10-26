@@ -199,7 +199,7 @@ That said, "vibe coding" is not feasible even if Codex is powerful, because the 
 
 Nowadays, AI workflows have matured significantly. It's now entirely possible for one or two programmers to build a complete game using the available AI tools in a fairly short time. The one major gap is in the particle systems, which still require human artists to produce, for now.
 
-## Renkai
+## Renkai Ma
 
 Generative AI tools greatly streamlined our workflow, but creating high-quality AI-generated assets still required significant time for iterative refinement.
 
@@ -210,3 +210,12 @@ Some limitations of the AI tools became apparent during development:
 - **UI Generation**: There is currently no AI model specialized for game UI design. Most tools generate generic images, which are not always suitable for interactive game interfaces.
 
 Overall, while AI served as a powerful assistant for speeding up content creation, **human intervention remained essential** for ensuring technical accuracy, usability, and aesthetic consistency.
+
+
+## Duoer Dai
+In this project, I was mainly responsible for UI design. My work focused on creating visual elements such as cards, icons, and button graphics, as well as writing several small scripts to handle button navigation between different scenes. Since our team did not have a dedicated art designer, I explored using different tools to generate and adjust visual materials. I started with ChatGPT-5 and Doubao, which I used to produce concept drafts and several sets of icons in different styles. Later, I tried Stable Diffusion XL to improve image clarity and maintain a consistent color tone, and occasionally Ideogram v2 when I needed text-based elements such as labels or card titles.
+
+Most of the process involved trial and error. AI tools were helpful for getting ideas quickly, but the results were often unpredictable. Sometimes the generated image didn’t match the intended layout or atmosphere, and I had to regenerate and compare many versions before finding a usable one. Even small prompt changes could completely alter the output, so a lot of time went into selecting, adjusting, and aligning the visuals rather than pure design.
+
+Overall, my reflection is that current AI-based creative tools remain limited in precision and contextual understanding. They can efficiently assist in producing visual prototypes, especially when the team lacks dedicated designers, but they cannot fully replace human artistic judgement. From image generation to 3D modeling and music synthesis, AI still struggles with intentionality and consistency. Nevertheless, for small teams like ours, these tools are invaluable in bridging technical and artistic gaps, enabling us to produce a visually complete interface despite minimal prior experience in art or design.
+
