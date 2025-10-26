@@ -10,7 +10,7 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 
 
 ## Game Play
-
+<img src="./Attachments/GamePlay.gif" alt="drawing" width="650"/>
 # 2. Team Responsibilities and Workflows
 
 ## Dong Yang
