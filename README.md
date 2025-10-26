@@ -24,7 +24,7 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 - Card generation and integration within the game
 - Player control and skill system implementation
 - Game Over UI design and logic
-- Background music and skill sound generation
+- Background music and skill sound effects generation
 
 ### Code Generation
 
