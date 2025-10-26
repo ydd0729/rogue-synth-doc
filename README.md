@@ -88,14 +88,15 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 
 - **AI Tool:** GPT-5 and Qwen3 Max
 
+**prompt:** This is a skill card that has been acquired. Create an upgraded version of this skill card that conveys the idea of an expanded area of effect.
   <img src="./Attachments/Wider Ring of Fire.png" alt="drawing" width="300"/>
 
   <img src="./Attachments/Quick Reset.png" alt="drawing" width="300"/>
 
 ### Sound Effect Generation
 
-- AI Tool: ComfyUI
-- Workflow: Assignment5-Sound-StableAudioOpen
+- **AI Tool:** ComfyUI
+- **Workflow:** Assignment5-Sound-StableAudioOpen
 
 ### Music Generation
 
