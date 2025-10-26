@@ -86,22 +86,36 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 
 ### Image Generation
 
-- **AI Tool:** GPT-5 and Qwen3 Max
+- **AI Tool:** Qwen3 Max
 
-**prompt:** This is a skill card that has been acquired. Create an upgraded version of this skill card that conveys the idea of an expanded area of effect.
-  <img src="./Attachments/Wider Ring of Fire.png" alt="drawing" width="300"/>
+  ```
+  This is a skill card. Create an upgraded version of this skill card that conveys the idea of an expanded area of effect. 
+  ```
 
-  <img src="./Attachments/Quick Reset.png" alt="drawing" width="300"/>
+  <img src="./Attachments/image-20251026193115029.png" alt="drawing" width="650"/>
+
+- **AI Tool:** GPT-5
+
+  ```
+  Generate a cartoon-style card image with a horizontal to vertical ratio of 3:2. There's no need to draw the card or any text on it; just create the image. The effect should represent a reduction in cooldown time for all skills.
+  ```
+
+    <img src="./Attachments/Quick Reset.png" alt="drawing" width="300"/>
 
 ### Sound Effect Generation
 
-- **AI Tool:** ComfyUI
-- **Workflow:** Assignment5-Sound-StableAudioOpen
+1. Use ComfyUI with the workflow from Assignment 5 (`Assignment5-Sound-StableAudioOpen`).
+
+2. Edit the generated audio with [Audacity](https://www.audacityteam.org/).
 
 ### Music Generation
 
 - **AI Tool:** [Suno](https://suno.com/)
-- **Prompt:** Light upbeat cartoon battle BGM, subtle orchestral, loop-friendly, cheerful not heavy.
+
+  ```
+  Light upbeat cartoon battle BGM, subtle orchestral, loop-friendly, cheerful not heavy.
+  ```
+
 - **Result:** background music for the title screen and gameplay scene
 
 ## Renkai Ma
@@ -177,13 +191,13 @@ Assets created during development
 
 ## Dong Yang
 
-In my view, Codex is one of the most powerful AI coding tool available today. Unity MCP, on the other hand, provides more functionality such as code validation and resource management. Together they can generate highly usable gameplay code. 
+In my view, Codex is one of the most powerful AI coding tools available today. Unity MCP, on the other hand, provides more functionality such as code validation and resource management. Together they can generate highly usable gameplay code. 
 
 One important distinction is that Codex does not rely on codebase indexing, unlike other AI coding tools such as Cursor. Instead, it decides which files are relevant and reads them based on the given prompts. This approach can be problematic if Codex overlooks certain files. This often happens when I try to use Codex to debug. So, I usually add a line to my prompt for complex tasks: "You should read all the relevant files before implementation."
 
 That said, "vibe coding" is not feasible even if Codex is powerful, because the tool is not fully reliable. It once took me a week to fix a bug because I didn't familiar with the codebase Codex generated. The issue appeared in a file I hadn't anticipated. Then I began to read every line Codex generated. I call this "supervised vibe coding".
 
-Nowadays, AI workflows have matured significantly. It's now entirely possible for a single programmer to build a complete game using the available AI tools. The one major gap is in the particle systems, which still require human artists to produce, for now.
+Nowadays, AI workflows have matured significantly. It's now entirely possible for one or two programmers to build a complete game using the available AI tools in a fairly short time. The one major gap is in the particle systems, which still require human artists to produce, for now.
 
 ## Renkai
 
