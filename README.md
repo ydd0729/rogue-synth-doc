@@ -131,7 +131,7 @@ The workflow for generating 3D models combines reference collection, AI-assisted
    Begin by searching for concept or prototype images (e.g., enemy designs) on **Pinterest** to establish a visual reference and design direction.
 
 2. **AI Image Generation**  
-   Use **Doubao AI** to generate character images based on the collected references. The characters are generated in a **T-pose** to facilitate rigging and animation.
+   Use **[Doubao AI](https://www.doubao.com/chat/)** to generate character images based on the collected references. The characters are generated in a **T-pose** to facilitate rigging and animation.
 
 3. **Background Removal**  
    Upload the generated images to **[iloveimg.com](https://www.iloveimg.com/)** to remove the background, keeping only the clean character silhouette for 3D model generation.
