@@ -184,7 +184,7 @@ That said, "vibe coding" is not feasible even if Codex is powerful, because the 
 
 Nowadays, AI workflows have matured significantly. It's now entirely possible for a single programmer to build a complete game using the available AI tools. The one major gap is in the particle systems, which still require human artists to produce, for now.
 
-## Renkai Reflection
+## Renkai
 
 Generative AI tools greatly streamlined our workflow, but creating high-quality AI-generated assets still required significant time for iterative refinement.
 
