@@ -5,6 +5,11 @@
 This project is a Unity-based Rogue-like game in which players move to avoid enemies and survive waves of monsters. As players progress and level up, cards appear that provide buffs and enhancements to strengthen the player.  
 
 The goal of this project is to explore how AI can enhance and accelerate the process of game development while preserving human creativity and technical control.  
+## Start Menu
+<img src="./Attachments/StartMenu.gif" alt="drawing" width="650"/>
+
+
+## Game Play
 
 # 2. Team Responsibilities and Workflows
 
