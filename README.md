@@ -2,11 +2,11 @@
 
 ## 1. Overview
 
-This project is a **Unity-based interactive game** that integrates multiple **generative AI tools** to assist in **narrative design**, **code generation**, **visual creation**, and **sound production**.
+This project is a **Unity-based Rogue-like game** in which players **move to avoid enemies** and survive waves of monsters. As players progress and **level up**, **cards appear** that provide **buffs and enhancements** to strengthen the player.  
 
-The goal of this project is to explore how AI can **enhance and accelerate** the process of game development while preserving **human creativity and technical control**.
+The goal of this project is to explore how AI can **enhance and accelerate** the process of game development while preserving **human creativity and technical control**.  
 
-The final product is a **3D Unity game** collaboratively developed by the team, with AI contributing to specific areas such as dialogue generation, asset creation, sound design, and performance optimization.
+
 
 ---
 
@@ -35,39 +35,51 @@ The final product is a **3D Unity game** collaboratively developed by the team, 
 
 ---
 
-## 3. Generative AI Tools and Their Roles
+## 3. Project Tools and Their Roles
 
+### Renkai Ma
 | Tool | Role | Example Usage |
 |------|------|----------------|
-| **ChatGPT 5** | Code generation, logic design, development consultation | Generated and optimized C# scripts for Unity enemy AI, UI logic, and behavior systems |
-| **Hunyuan 3D v3.0** | Enemy model and environment asset generation | Created enemy models and in-game environmental objects |
-| **Hunyuan 3D v2.1** | Main character model generation | Generated player character models |
-| **Doubao** | Card and UI image generation | Produced card illustrations and UI graphics |
-| **ComfyUI** | Visual refinement and image enhancement | Enhanced and polished generated images |
-| **Stable Audio Open 1.0** | Sound effect generation | Generated sound effects for skills and enemy attacks |
-| **Q4 GGUF** | Image generation | Generated card illustrations, UI graphics, and other in-game visual assets |
-
+| **Hunyuan 3D v3.0** | 3D model generation | Generated enemy models and environmental objects |
+| **Stable Audio Open 1.0** | Sound effect generation | Created sound effects for enemy attacks and skills |
+| **Unity** | Game engine | Integrated assets, implemented enemy behavior logic, terrain and object placement |
+| **Mixamo** | Rigging and animations | Applied animations to enemy models |
+| **Blender** | 3D editing | Converted models to FBX, adjusted model size and scale |
 
 ---
 
-## 4. Workflow Summary
+## 4.Timeline (6 Weeks)
 
-1. **Concept & Planning** — Brainstormed core ideas, storylines, and gameplay mechanics, assisted by *ChatGPT* for refining design concepts.
-2. **AI Asset Generation** — Generated visuals, 3D models, and sound effects using *Hunyuan 3D*, *Doubao*, and *Stable Audio*.
-3. **Unity Development** — Integrated AI-generated content into Unity; implemented logic, UI, and interactions using C# and Unity Editor.
-4. **Testing & Polishing** — Conducted iterative testing to refine gameplay, UI, and performance, combining AI suggestions with manual optimization.
+| Week | Goal | Deliverable |
+|------|------|------------|
+| 1 | Learn Unreal Engine 5, familiarize with the interface and basic prototyping | Basic understanding of UE5 workflow|
+| 2 | Project framework & basic scene using Unreal Engine | Movable player prototype, basic hero skill implementation |
+| 3 | Transition project to Unity, import assets and set up project | Unity project initialized with UE prototype assets |
+| 4 | Core skill (Wave Attack) refinement & basic enemy AI | Playable demo with Wave Attack skill and functional enemy AI |
+| 5 | Implement additional skills (Normal Attack, Falling Brick) | At least 2 additional skill branches playable |
+| 6 | Skill upgrade system, UI completion, AI-generated content integration (art, sound, models) | Fully playable skill upgrade system, integrated visual/audio assets |
+
 
 ---
 
 ## 5. Reflections
 
-Generative AI tools greatly streamlined the workflow by automating content creation and providing creative inspiration throughout development.
+## Renkai Reflection
 
-However, human creativity, aesthetic judgment, and gameplay sense remained crucial for achieving a cohesive and engaging experience.
+Generative AI tools greatly streamlined our workflow, but creating high-quality AI-generated assets still required significant time for iterative refinement.
 
-AI served as a **creative collaborator** — enhancing productivity but not replacing artistry.
+Some limitations of the AI tools became apparent during development:
+
+- **3D Model Generation**: For simple objects, like a cube, minimal vertex count is sufficient, yet AI-generated models often lack flexibility in adjusting vertices. Non-humanoid characters could not be automatically rigged, and sometimes the generated rigs had errors or required manual correction.
+
+- **UI Generation**: There is currently no AI model specialized for game UI design. Most tools generate generic images, which are not always suitable for interactive game interfaces.
+
+Overall, while AI served as a powerful assistant for speeding up content creation, **human intervention remained essential** for ensuring technical accuracy, usability, and aesthetic consistency.
+
 
 ---
 
 *Project by Team Rogue Synth*  
 🔗 [https://rogue-synth.github.io](https://rogue-synth.github.io)
+Assets created during development
+🔗[https://drive.google.com/drive/folders/1k0wq6oe_rZ1G_FWIXGu-7K5lyvKph4dH?usp=sharing]
