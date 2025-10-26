@@ -29,7 +29,7 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 ### Code Generation
 
 - AI Tools: [Codex](https://openai.com/codex/) and [Unity MCP](https://github.com/CoplayDev/unity-mcp)
-- [Chat History](./Attachments/Chat - Dong Yang - 7564031.zip)
+- [Chat History]("./Attachments/Chat - Dong Yang - 7564031.zip")
 
 ### Model Generation
 
