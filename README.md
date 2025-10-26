@@ -6,11 +6,15 @@ This project is a Unity-based Rogue-like game in which players move to avoid ene
 
 The goal of this project is to explore how AI can enhance and accelerate the process of game development while preserving human creativity and technical control.  
 ## Start Menu
-<img src="./Attachments/StartMenu.gif" alt="drawing" width="650"/>
-
+<p align="center">
+  <img src="./Attachments/StartMenu.gif" alt="drawing" width="650"/>
+</p>
 
 ## Game Play
-<img src="./Attachments/GamePlay.gif" alt="drawing" width="650"/>
+<p align="center">
+  <img src="./Attachments/GamePlay.gif" alt="drawing" width="650"/>
+</p>
+
 # 2. Team Responsibilities and Workflows
 
 ## Dong Yang
@@ -115,6 +119,38 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 | **Unity**                 | Game engine             | Integrated assets, implemented enemy behavior logic, terrain and object placement |
 | **Mixamo**                | Rigging and animations  | Applied animations to enemy models                           |
 | **Blender**               | 3D editing              | Converted models to FBX, adjusted model size and scale       |
+
+[Chat History][https://drive.google.com/drive/folders/1oYRJblKnpOhADEi-_NIkUbT16GklrBKc?dmr=1&ec=wgc-drive-hero-goto]
+[AIContentGeneration][https://drive.google.com/drive/folders/1i7UxOKBIvhrieIrT3MIfc-6Z11LPG-mH?dmr=1&ec=wgc-drive-hero-goto]
+
+### Generation Workflow
+
+The workflow for generating 3D models combines reference collection, AI-assisted image generation, and 3D model processing using multiple tools. The process is as follows:
+
+1. **Reference Collection**  
+   Begin by searching for concept or prototype images (e.g., enemy designs) on **Pinterest** to establish a visual reference and design direction.
+
+2. **AI Image Generation**  
+   Use **Doubao AI** to generate character images based on the collected references. The characters are generated in a **T-pose** to facilitate rigging and animation.
+
+3. **Background Removal**  
+   Upload the generated images to **[iloveimg.com](https://www.iloveimg.com/)** to remove the background, keeping only the clean character silhouette for 3D model generation.
+
+4. **3D Model Generation**  
+   Use **Hunyuan 3D** to generate 3D character models from the processed images. The generated models are initially exported in **GLB format**.
+
+5. **Model Optimization and Conversion**  
+   Import the GLB models into **Blender**, adjust textures, resize the model if necessary, and then export the final version in **FBX format** for better compatibility with Unity.
+   
+7. **Rigging with Mixamo**
+   Uploaded the character model to Mixamo for automatic skeleton binding (rigging) and animation preparation.
+
+8. **Unity Integration**  
+   Import the FBX models into **Unity**, where they are integrated into the project for gameplay use, animation setup, and further customization.
+
+<p align="center">
+  <img src="./Attachments/hunyuan3D.png" alt="drawing" width="650"/>
+</p>
 
 ## Duoer Dai
 
