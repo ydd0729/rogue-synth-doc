@@ -42,11 +42,11 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 
 4. **Iterate:** Repeat the process until the results meet quality expectations.
 
-<img src="./Attachments/Hero.png" alt="drawing" width="200"/>
+   <img src="./Attachments/Hero.png" alt="drawing" width="200"/>
 
 5. **Pose adjustment:** Use [Qwen3 Max](https://www.tongyi.com/qianwen/) to transform the image into T-pose.
 
-<img src="./Attachments/T-pose.png" alt="drawing" width="200"/>
+   <img src="./Attachments/T-pose.png" alt="drawing" width="200"/>
 
 6. **Model generation:** Upload the T-pose image to [Rodin](https://hyper3d.ai/) to generate a 3D model. Download both the shaded and PBR versions as FBX files.
 7. **Unity setup:** Import the PBR version to Unity.
@@ -70,9 +70,10 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
    ```
 
 2. **Animation generation:** Use the prompts with [Deepmotion](https://saymotion.deepmotion.com/) to produce the animation.
+
 3. **Unity setup:** Export the animation as a FBX file. Import it into Unity and configure the animation type as *Humanoid*.
 
-<img src="./Attachments/Die Animation.gif" alt="drawing" width="650"/>
+   <img src="./Attachments/Die Animation.gif" alt="drawing" width="650"/>
 
 ### Image Generation
 
