@@ -79,8 +79,9 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 
 - **AI Tool:** GPT-5 and Qwen3 Max
 
-| <img src="./Attachments/Wider Ring of Fire.png" alt="drawing" width="300"/> | <img src="./Attachments/Quick Reset.png" alt="drawing" width="300"/> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+  <img src="./Attachments/Wider Ring of Fire.png" alt="drawing" width="300"/>
+
+  <img src="./Attachments/Quick Reset.png" alt="drawing" width="300"/>
 
 ### Sound Effect Generation
 
