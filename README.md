@@ -120,8 +120,8 @@ The goal of this project is to explore how AI can enhance and accelerate the pro
 | **Mixamo**                | Rigging and animations  | Applied animations to enemy models                           |
 | **Blender**               | 3D editing              | Converted models to FBX, adjusted model size and scale       |
 
-[Chat History][https://drive.google.com/drive/folders/1oYRJblKnpOhADEi-_NIkUbT16GklrBKc?dmr=1&ec=wgc-drive-hero-goto]
-[AIContentGeneration][https://drive.google.com/drive/folders/1i7UxOKBIvhrieIrT3MIfc-6Z11LPG-mH?dmr=1&ec=wgc-drive-hero-goto]
+[Chat History](https://drive.google.com/drive/folders/1oYRJblKnpOhADEi-_NIkUbT16GklrBKc?dmr=1&ec=wgc-drive-hero-goto)
+[AIContentGeneration](https://drive.google.com/drive/folders/1i7UxOKBIvhrieIrT3MIfc-6Z11LPG-mH?dmr=1&ec=wgc-drive-hero-goto)
 
 ### Generation Workflow
 
